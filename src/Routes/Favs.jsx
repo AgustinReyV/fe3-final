@@ -8,7 +8,6 @@ import { useCardContext } from "../Components/utils/global.context";
 const Favs = () => {
   const {state} = useCardContext();
 
-console.log(state.cardDen)
 
   return (
     <>
